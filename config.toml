@@ -63,7 +63,7 @@ enableEmoji = true
         gravatarEmail = "ruthless.rude.david@gmail.com"
         title = "David Sepashvili"
         typeit = false
-        social = true
+        social = false
         disclaimer = "I am a Security Engineer from St. Petersburg, Russia."
         # disclaimer = "I am a Security Engineer (<a href=\"\"><u>CV</u></a>) from Russia.<br>I blog about <a href=\"\"><u>Information security</u> <i class=\"fas fa-rss\"></i></a> but also about how I apply evidence-based knowledge to my <a href=\"\"><u>Life</u> <i class=\"fas fa-rss\"></i></a> to do sports, invest, stay away from cigarettes, and so on."
       [languages.en.params.home.posts]
@@ -125,7 +125,7 @@ enableEmoji = true
         title = "Давид Сепашвили"
         subtitle = ""
         typeit = false
-        social = true
+        social = false
         disclaimer = "Я инженер по информационной безопасности. Живу и работаю в Санкт Петербурге."
         # disclaimer = "I am a Security Engineer (<a href=\"\"><u>CV</u></a>) from Russia.<br>I blog about <a href=\"\"><u>Information security</u> <i class=\"fas fa-rss\"></i></a> but also about how I apply evidence-based knowledge to my <a href=\"\"><u>Life</u> <i class=\"fas fa-rss\"></i></a> to do sports, invest, stay away from cigarettes, and so on."
       [languages.ru.params.home.posts]
