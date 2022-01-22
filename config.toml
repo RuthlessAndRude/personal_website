@@ -51,7 +51,7 @@ enableEmoji = true
       pre = "<i class='fas fa-rss fa-fw'></i>"
       post = ""
       name = ""
-      url = "https://ruthlessandrude.com/<something>/rss"
+      url = "https://ruthlessandrude.com/posts/index.xml"
       title = "RSS"
       weight = 9
   [languages.en.params]
@@ -63,7 +63,7 @@ enableEmoji = true
         gravatarEmail = "ruthless.rude.david@gmail.com"
         title = "David Sepashvili"
         typeit = false
-        social = false
+        social = true
         disclaimer = "I am a Security Engineer from St. Petersburg, Russia."
         # disclaimer = "I am a Security Engineer (<a href=\"\"><u>CV</u></a>) from Russia.<br>I blog about <a href=\"\"><u>Information security</u> <i class=\"fas fa-rss\"></i></a> but also about how I apply evidence-based knowledge to my <a href=\"\"><u>Life</u> <i class=\"fas fa-rss\"></i></a> to do sports, invest, stay away from cigarettes, and so on."
       [languages.en.params.home.posts]
@@ -112,7 +112,7 @@ enableEmoji = true
       pre = "<i class='fas fa-rss fa-fw'></i>"
       post = ""
       name = ""
-      url = "https://ruthlessandrude.com/<something>/rss"
+      url = "https://ruthlessandrude.com/posts/index.xml"
       title = "RSS"
       weight = 9
   [languages.ru.params]
@@ -229,6 +229,7 @@ enableEmoji = true
     Linkedin = "david-sepashvili-5a3350b5"
     Telegram = "RuthlessAndRude"
     Email = "ruthless.rude.david@gmail.com"
+    RSS = true
 
 
   [params.typeit]
