@@ -99,7 +99,7 @@ enableEmoji = true
       url = "/categories/"
       title = "Категории"
       weight = 3
-    # [[languages.en.menu.main]]
+    # [[languages.ru.menu.main]]
     #   identifier = "about"
     #   pre = ""
     #   post = ""
@@ -112,7 +112,7 @@ enableEmoji = true
       pre = "<i class='fas fa-rss fa-fw'></i>"
       post = ""
       name = ""
-      url = "https://ruthlessandrude.com/posts/index.xml"
+      url = "https://ruthlessandrude.com/ru/posts/index.xml"
       title = "RSS"
       weight = 9
   [languages.ru.params]
@@ -125,7 +125,7 @@ enableEmoji = true
         title = "Давид Сепашвили"
         subtitle = ""
         typeit = false
-        social = false
+        social = true
         disclaimer = "Я инженер по информационной безопасности. Живу и работаю в Санкт Петербурге."
         # disclaimer = "I am a Security Engineer (<a href=\"\"><u>CV</u></a>) from Russia.<br>I blog about <a href=\"\"><u>Information security</u> <i class=\"fas fa-rss\"></i></a> but also about how I apply evidence-based knowledge to my <a href=\"\"><u>Life</u> <i class=\"fas fa-rss\"></i></a> to do sports, invest, stay away from cigarettes, and so on."
       [languages.ru.params.home.posts]
