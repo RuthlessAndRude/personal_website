@@ -1,0 +1,325 @@
+baseURL = "https://ruthlessandrude.com/"
+# Determines default content language
+defaultContentLanguage = "en"
+# Hugo theme https://github.com/HEIGE-PCloud/DoIt
+theme = "DoIt"
+# Whether to use robots.txt
+enableRobotsTXT = true
+# Whether to use git commit log
+enableGitInfo = false
+# Whether to use emoji code
+enableEmoji = true
+
+
+[languages]
+  [languages.en]
+    weight = 1
+    languageCode = "en"
+    languageName = "English"
+    # Whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = false
+    paginate = 10
+    [languages.en.menu]    
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        title = "Posts"
+        weight = 1
+    [[languages.en.menu.main]]
+      identifier = "series"
+      name = "Series"
+      url = "/series/"
+      title = "Series"
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "categories"
+      name = "Categories"
+      url = "/categories/"
+      title = "Categories"
+      weight = 3
+    # [[languages.en.menu.main]]
+    #   identifier = "about"
+    #   pre = ""
+    #   post = ""
+    #   name = "About"
+    #   url = "/about/"
+    #   title = ""
+    #   weight = 8
+    [[languages.en.menu.main]]
+      identifier = "RSS"
+      pre = "<i class='fas fa-rss fa-fw'></i>"
+      post = ""
+      name = ""
+      url = "https://ruthlessandrude.com/<something>/rss"
+      title = "RSS"
+      weight = 9
+  [languages.en.params]
+    description = "David Sepashvili's personal website"
+    keywords = ["David Sepashvili", "Security Engineer", "Security", "Personal Website", "Blog", "Ruthless&Rude", "RuthlessAndRude"]
+    [languages.en.params.home]
+      [languages.en.params.home.profile]
+        enable = true
+        gravatarEmail = "ruthless.rude.david@gmail.com"
+        title = "David Sepashvili"
+        typeit = false
+        social = false
+        disclaimer = "I am a Security Engineer from St. Petersburg, Russia."
+        # disclaimer = "I am a Security Engineer (<a href=\"\"><u>CV</u></a>) from Russia.<br>I blog about <a href=\"\"><u>Information security</u> <i class=\"fas fa-rss\"></i></a> but also about how I apply evidence-based knowledge to my <a href=\"\"><u>Life</u> <i class=\"fas fa-rss\"></i></a> to do sports, invest, stay away from cigarettes, and so on."
+      [languages.en.params.home.posts]
+        enable = false
+      # [languages.en.params.sponsor]
+      #   enable = false
+      #   bio = "If you find this post helpful, please consider sponsoring."
+      #   link = "https://github.com/sponsors/HEIGE-PCloud"
+      # custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"
+
+
+  [languages.ru]
+    weight = 2
+    languageCode = "ru"
+    languageName = "Русский"
+    # Whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = false
+    [[languages.ru.menu.main]]
+      identifier = "posts"
+      name = "Посты"
+      url = "/posts/"
+      title = "Посты"
+      weight = 1
+    [[languages.ru.menu.main]]
+      identifier = "series"
+      name = "Серии"
+      url = "/series/"
+      title = "Серии"
+      weight = 2
+    [[languages.ru.menu.main]]
+      identifier = "categories"
+      name = "Категории"
+      url = "/categories/"
+      title = "Категории"
+      weight = 3
+    # [[languages.en.menu.main]]
+    #   identifier = "about"
+    #   pre = ""
+    #   post = ""
+    #   name = "About"
+    #   url = "/about/"
+    #   title = ""
+    #   weight = 8
+    [[languages.ru.menu.main]]
+      identifier = "RSS"
+      pre = "<i class='fas fa-rss fa-fw'></i>"
+      post = ""
+      name = ""
+      url = "https://ruthlessandrude.com/<something>/rss"
+      title = "RSS"
+      weight = 9
+  [languages.ru.params]
+    description = "Персональный вебсайт Давида Сепашвили"
+    keywords = ["David Sepashvili", "Security Engineer", "Security", "Personal Website", "Blog", "Ruthless&Rude", "RuthlessAndRude"]
+    [languages.ru.params.home]
+      [languages.ru.params.home.profile]
+        enable = true
+        gravatarEmail = "ruthless.rude.david@gmail.com"
+        title = "Давид Сепашвили"
+        subtitle = ""
+        typeit = false
+        social = false
+        disclaimer = "Я инженер по информационной безопасности. Живу и работаю в Санкт Петербурге."
+        # disclaimer = "I am a Security Engineer (<a href=\"\"><u>CV</u></a>) from Russia.<br>I blog about <a href=\"\"><u>Information security</u> <i class=\"fas fa-rss\"></i></a> but also about how I apply evidence-based knowledge to my <a href=\"\"><u>Life</u> <i class=\"fas fa-rss\"></i></a> to do sports, invest, stay away from cigarettes, and so on."
+      [languages.ru.params.home.posts]
+        enable = false
+
+[params]  
+  version = "0.2.X"
+  title = "Ruthless&Rude"
+  defaultTheme = "auto"
+  gitRepo = "https://github.com/RuthlessAndRude/personal_website"
+  dateFormat = "01-02-2006"
+  enablePWA = false
+  fingerprint = "sha256"
+  license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    themeChangeMode = "switch"
+    [params.header.title]
+      name = "Ruthless&Rude"
+      typeit = true
+
+  [params.footer]
+    enable = false
+
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02-2006"
+    rss = 10
+
+  [params.list]
+    paginate = 20
+    dateFormat = "01-02-2006"
+    rss = 10
+
+
+
+  [params.search]
+    enable = true
+    type = "fuse"
+    contentLength = 4000
+    placeholder = ""
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
+    absoluteURL = false
+    [params.search.fuse]
+      isCaseSensitive = false
+      minMatchCharLength = 2
+      findAllMatches = false
+      location = 0
+      threshold = 0.3
+      distance = 100
+      ignoreLocation = false
+      useExtendedSearch = false
+      ignoreFieldNorm = false
+
+
+  [params.page]
+    hiddenFromHomePage = true
+    hiddenFromSearch = false
+    twemoji = false
+    lightgallery = false
+    ruby = true
+    fraction = true
+    fontawesome = true
+    linkToMarkdown = false
+    linkToSource = false
+    linkToEdit = false
+    linkToReport = true
+    rssFullText = false
+    pageStyle = "wide"
+    seriesNavigation = true
+    [params.page.outdatedArticleReminder]
+      enable = false
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+    [params.page.math]
+      enable = true
+      copyTex = true
+      mhchem = true
+    [params.page.code]
+      copy = true
+      maxShownLines = 10
+    [params.page.table]
+      sort = true
+    [params.page.share]
+      enable = false
+    [params.page.comment]
+      enable = false
+    [params.page.seo]
+      images = []
+      [params.page.seo.publisher]
+        name = ""
+        logoUrl = ""
+
+  [params.social]
+    Linkedin = "david-sepashvili-5a3350b5"
+    Telegram = "RuthlessAndRude"
+    Email = "ruthless.rude.david@gmail.com"
+
+
+  [params.typeit]
+    speed = 50
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+  [params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+    so = "" # 360 search
+    sogou = ""
+
+  # [params.seo]
+  #   # image URL
+  #   image = ""
+  #   # thumbnail URL
+  #   thumbnailUrl = ""
+  # [params.analytics]
+  #   enable = false
+  #   [params.analytics.google]
+  #     id = ""
+  #     anonymizeIP = true
+
+  [params.cookieconsent]
+    enable = false
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+[author]
+  name = "David Sepashvili"
+  email = "ruthless.rude.david@gmail.com"
+  link = "https://t.me/RuthlessAndRude"
+  gravatarEmail = "ruthless.rude.david@gmail.com"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[Permalinks]
+  posts = ":filename"
+
+[privacy]
+  [privacy.googleAnalytics]
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs]
+  home = ["HTML"]
+  page = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  taxonomyTerm = ["HTML"]
+
+[taxonomies]
+series = "series"
+category = "categories"
