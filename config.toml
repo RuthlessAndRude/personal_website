@@ -19,25 +19,25 @@ enableEmoji = true
     # Whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     paginate = 10
-    [languages.en.menu]    
-      [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts/"
-        title = "Posts"
-        weight = 1
-    [[languages.en.menu.main]]
-      identifier = "series"
-      name = "Series"
-      url = "/series/"
-      title = "Series"
-      weight = 2
-    [[languages.en.menu.main]]
-      identifier = "categories"
-      name = "Categories"
-      url = "/categories/"
-      title = "Categories"
-      weight = 3
+    # [languages.en.menu]    
+    #   [[languages.en.menu.main]]
+    #     identifier = "posts"
+    #     name = "Posts"
+    #     url = "/posts/"
+    #     title = "Posts"
+    #     weight = 1
+    # [[languages.en.menu.main]]
+    #   identifier = "series"
+    #   name = "Series"
+    #   url = "/series/"
+    #   title = "Series"
+    #   weight = 2
+    # [[languages.en.menu.main]]
+    #   identifier = "categories"
+    #   name = "Categories"
+    #   url = "/categories/"
+    #   title = "Categories"
+    #   weight = 3
     # [[languages.en.menu.main]]
     #   identifier = "about"
     #   pre = ""
@@ -46,14 +46,14 @@ enableEmoji = true
     #   url = "/about/"
     #   title = ""
     #   weight = 8
-    [[languages.en.menu.main]]
-      identifier = "RSS"
-      pre = "<i class='fas fa-rss fa-fw'></i>"
-      post = ""
-      name = ""
-      url = "https://ruthlessandrude.com/posts/index.xml"
-      title = "RSS"
-      weight = 9
+    # [[languages.en.menu.main]]
+    #   identifier = "RSS"
+    #   pre = "<i class='fas fa-rss fa-fw'></i>"
+    #   post = ""
+    #   name = ""
+    #   url = "https://ruthlessandrude.com/posts/index.xml"
+    #   title = "RSS"
+    #   weight = 9
   [languages.en.params]
     description = "David Sepashvili's personal website"
     keywords = ["David Sepashvili", "Security Engineer", "Security", "Personal Website", "Blog", "Ruthless&Rude", "RuthlessAndRude"]
@@ -81,24 +81,24 @@ enableEmoji = true
     languageName = "Русский"
     # Whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
-    [[languages.ru.menu.main]]
-      identifier = "posts"
-      name = "Посты"
-      url = "/posts/"
-      title = "Посты"
-      weight = 1
-    [[languages.ru.menu.main]]
-      identifier = "series"
-      name = "Серии"
-      url = "/series/"
-      title = "Серии"
-      weight = 2
-    [[languages.ru.menu.main]]
-      identifier = "categories"
-      name = "Категории"
-      url = "/categories/"
-      title = "Категории"
-      weight = 3
+    # [[languages.ru.menu.main]]
+    #   identifier = "posts"
+    #   name = "Посты"
+    #   url = "/posts/"
+    #   title = "Посты"
+    #   weight = 1
+    # [[languages.ru.menu.main]]
+    #   identifier = "series"
+    #   name = "Серии"
+    #   url = "/series/"
+    #   title = "Серии"
+    #   weight = 2
+    # [[languages.ru.menu.main]]
+    #   identifier = "categories"
+    #   name = "Категории"
+    #   url = "/categories/"
+    #   title = "Категории"
+    #   weight = 3
     # [[languages.ru.menu.main]]
     #   identifier = "about"
     #   pre = ""
@@ -107,14 +107,14 @@ enableEmoji = true
     #   url = "/about/"
     #   title = ""
     #   weight = 8
-    [[languages.ru.menu.main]]
-      identifier = "RSS"
-      pre = "<i class='fas fa-rss fa-fw'></i>"
-      post = ""
-      name = ""
-      url = "https://ruthlessandrude.com/ru/posts/index.xml"
-      title = "RSS"
-      weight = 9
+    # [[languages.ru.menu.main]]
+    #   identifier = "RSS"
+    #   pre = "<i class='fas fa-rss fa-fw'></i>"
+    #   post = ""
+    #   name = ""
+    #   url = "https://ruthlessandrude.com/ru/posts/index.xml"
+    #   title = "RSS"
+    #   weight = 9
   [languages.ru.params]
     description = "Персональный вебсайт Давида Сепашвили"
     keywords = ["David Sepashvili", "Security Engineer", "Security", "Personal Website", "Blog", "Ruthless&Rude", "RuthlessAndRude"]
@@ -321,6 +321,6 @@ enableEmoji = true
   taxonomy = ["HTML"]
   taxonomyTerm = ["HTML"]
 
-[taxonomies]
-series = "series"
-category = "categories"
+# [taxonomies]
+# series = "series"
+# category = "categories"
