@@ -19,7 +19,7 @@ enableEmoji = true
     # Whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     paginate = 10
-    # [languages.en.menu]    
+    [languages.en.menu]
     #   [[languages.en.menu.main]]
     #     identifier = "posts"
     #     name = "Posts"
@@ -38,14 +38,14 @@ enableEmoji = true
     #   url = "/categories/"
     #   title = "Categories"
     #   weight = 3
-    # [[languages.en.menu.main]]
-    #   identifier = "about"
-    #   pre = ""
-    #   post = ""
-    #   name = "About"
-    #   url = "/about/"
-    #   title = ""
-    #   weight = 8
+    [[languages.en.menu.main]]
+      identifier = "about"
+      pre = ""
+      post = ""
+      name = "About"
+      url = "/about/"
+      title = ""
+      weight = 8
     # [[languages.en.menu.main]]
     #   identifier = "RSS"
     #   pre = "<i class='fas fa-rss fa-fw'></i>"
@@ -55,17 +55,18 @@ enableEmoji = true
     #   title = "RSS"
     #   weight = 9
   [languages.en.params]
-    description = "David Sepashvili's personal website"
+    description = "David Sepashvili's home page"
     keywords = ["David Sepashvili", "Security Engineer", "Security", "Personal Website", "Blog", "Ruthless&Rude", "RuthlessAndRude"]
     [languages.en.params.home]
       [languages.en.params.home.profile]
         enable = true
-        gravatarEmail = "ruthless.rude.david@gmail.com"
+        avatarUrl = "me.jpg"
+        # gravatarEmail = "ruthless.rude.david@gmail.com"
         title = "David Sepashvili"
+        subtitle = "I am a Security Engineer from Saint Petersburg, Russia."
         typeit = false
-        social = false
-        disclaimer = "I am a Security Engineer from St. Petersburg, Russia."
-        # disclaimer = "I am a Security Engineer (<a href=\"\"><u>CV</u></a>) from Russia.<br>I blog about <a href=\"\"><u>Information security</u> <i class=\"fas fa-rss\"></i></a> but also about how I apply evidence-based knowledge to my <a href=\"\"><u>Life</u> <i class=\"fas fa-rss\"></i></a> to do sports, invest, stay away from cigarettes, and so on."
+        social = true
+
       [languages.en.params.home.posts]
         enable = false
       # [languages.en.params.sponsor]
@@ -99,14 +100,14 @@ enableEmoji = true
     #   url = "/categories/"
     #   title = "Категории"
     #   weight = 3
-    # [[languages.ru.menu.main]]
-    #   identifier = "about"
-    #   pre = ""
-    #   post = ""
-    #   name = "About"
-    #   url = "/about/"
-    #   title = ""
-    #   weight = 8
+    [[languages.ru.menu.main]]
+      identifier = "about"
+      pre = ""
+      post = ""
+      name = "Обо мне"
+      url = "/about/"
+      title = "Обо мне"
+      weight = 8
     # [[languages.ru.menu.main]]
     #   identifier = "RSS"
     #   pre = "<i class='fas fa-rss fa-fw'></i>"
@@ -116,18 +117,17 @@ enableEmoji = true
     #   title = "RSS"
     #   weight = 9
   [languages.ru.params]
-    description = "Персональный вебсайт Давида Сепашвили"
+    description = "Домашняя страница Давида Сепашвили"
     keywords = ["David Sepashvili", "Security Engineer", "Security", "Personal Website", "Blog", "Ruthless&Rude", "RuthlessAndRude"]
     [languages.ru.params.home]
       [languages.ru.params.home.profile]
         enable = true
-        gravatarEmail = "ruthless.rude.david@gmail.com"
+        avatarUrl = "/me.jpg"
+        # gravatarEmail = "ruthless.rude.david@gmail.com"
         title = "Давид Сепашвили"
-        subtitle = ""
+        subtitle = "Я Инженер по информационной безопасности. Живу в Санкт Петербурге."
         typeit = false
-        social = false
-        disclaimer = "Я инженер по информационной безопасности. Живу и работаю в Санкт Петербурге."
-        # disclaimer = "I am a Security Engineer (<a href=\"\"><u>CV</u></a>) from Russia.<br>I blog about <a href=\"\"><u>Information security</u> <i class=\"fas fa-rss\"></i></a> but also about how I apply evidence-based knowledge to my <a href=\"\"><u>Life</u> <i class=\"fas fa-rss\"></i></a> to do sports, invest, stay away from cigarettes, and so on."
+        social = true
       [languages.ru.params.home.posts]
         enable = false
 
@@ -229,7 +229,7 @@ enableEmoji = true
     Linkedin = "david-sepashvili-5a3350b5"
     Telegram = "RuthlessAndRude"
     Email = "ruthless.rude.david@gmail.com"
-    RSS = true
+    # RSS = true
 
 
   [params.typeit]
@@ -288,7 +288,8 @@ enableEmoji = true
   name = "David Sepashvili"
   email = "ruthless.rude.david@gmail.com"
   link = "https://t.me/RuthlessAndRude"
-  gravatarEmail = "ruthless.rude.david@gmail.com"
+  avatarUrl = "me.jpg"
+  # gravatarEmail = "ruthless.rude.david@gmail.com"
 
 [sitemap]
   changefreq = "weekly"
