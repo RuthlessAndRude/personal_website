@@ -164,25 +164,25 @@ enableEmoji = true
 
 
 
-  [params.search]
-    enable = true
-    type = "fuse"
-    contentLength = 4000
-    placeholder = ""
-    maxResultLength = 10
-    snippetLength = 30
-    highlightTag = "em"
-    absoluteURL = false
-    [params.search.fuse]
-      isCaseSensitive = false
-      minMatchCharLength = 2
-      findAllMatches = false
-      location = 0
-      threshold = 0.3
-      distance = 100
-      ignoreLocation = false
-      useExtendedSearch = false
-      ignoreFieldNorm = false
+  # [params.search]
+  #   enable = true
+  #   type = "fuse"
+  #   contentLength = 4000
+  #   placeholder = ""
+  #   maxResultLength = 10
+  #   snippetLength = 30
+  #   highlightTag = "em"
+  #   absoluteURL = false
+  #   [params.search.fuse]
+  #     isCaseSensitive = false
+  #     minMatchCharLength = 2
+  #     findAllMatches = false
+  #     location = 0
+  #     threshold = 0.3
+  #     distance = 100
+  #     ignoreLocation = false
+  #     useExtendedSearch = false
+  #     ignoreFieldNorm = false
 
 
   [params.page]
