@@ -51,6 +51,7 @@ enableEmoji = true
     #   weight = 9
   [languages.en.params]
     description = "David Sepashvili's homepage"
+    images = ["og-image-en.png"]
     keywords = ["David Sepashvili", "Security Engineer", "Security", "Personal Website", "Blog", "Ruthless&Rude", "RuthlessAndRude"]
     [languages.en.params.home]
       [languages.en.params.home.profile]
@@ -58,7 +59,8 @@ enableEmoji = true
         avatarUrl = "/me.jpg"
         # gravatarEmail = "ruthless.rude.david@gmail.com"
         title = "David Sepashvili"
-        subtitle = "I am a Security Engineer from Saint Petersburg, Russia."
+        subtitle = "Security Engineer from Saint Petersburg, Russia"
+        description = "I am David Sepashvili, Security Engineer from Saint Petersburg, Russia"
         typeit = false
         social = true
 
@@ -113,6 +115,7 @@ enableEmoji = true
     #   weight = 9
   [languages.ru.params]
     description = "Домашняя страница Давида Сепашвили"
+    images = ["og-image-ru.png"]
     keywords = ["David Sepashvili", "Security Engineer", "Security", "Personal Website", "Blog", "Ruthless&Rude", "RuthlessAndRude"]
     [languages.ru.params.home]
       [languages.ru.params.home.profile]
@@ -120,7 +123,8 @@ enableEmoji = true
         avatarUrl = "/me.jpg"
         # gravatarEmail = "ruthless.rude.david@gmail.com"
         title = "Давид Сепашвили"
-        subtitle = "Я Инженер по информационной безопасности. Живу в Санкт Петербурге."
+        subtitle = "Инженер по инфраструктурной безопасности из Санкт-Петербурга"
+        description = "Инженер по инфраструктурной безопасности из Санкт-Петербурга"
         typeit = false
         social = true
       [languages.ru.params.home.posts]
