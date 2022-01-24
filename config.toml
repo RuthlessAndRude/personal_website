@@ -60,7 +60,7 @@ enableEmoji = true
     [languages.en.params.home]
       [languages.en.params.home.profile]
         enable = true
-        avatarUrl = "me.jpg"
+        avatarUrl = "/me.jpg"
         # gravatarEmail = "ruthless.rude.david@gmail.com"
         title = "David Sepashvili"
         subtitle = "I am a Security Engineer from Saint Petersburg, Russia."
@@ -288,7 +288,7 @@ enableEmoji = true
   name = "David Sepashvili"
   email = "ruthless.rude.david@gmail.com"
   link = "https://t.me/RuthlessAndRude"
-  avatarUrl = "me.jpg"
+  avatarUrl = "/me.jpg"
   # gravatarEmail = "ruthless.rude.david@gmail.com"
 
 [sitemap]
