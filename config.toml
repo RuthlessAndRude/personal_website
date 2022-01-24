@@ -1,13 +1,9 @@
 baseURL = "https://ruthlessandrude.com/"
-# Determines default content language
+
 defaultContentLanguage = "en"
-# Hugo theme https://github.com/HEIGE-PCloud/DoIt
 theme = "DoIt"
-# Whether to use robots.txt
 enableRobotsTXT = true
-# Whether to use git commit log
 enableGitInfo = false
-# Whether to use emoji code
 enableEmoji = true
 
 
@@ -16,7 +12,6 @@ enableEmoji = true
     weight = 1
     languageCode = "en"
     languageName = "English"
-    # Whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     paginate = 10
     [languages.en.menu]
@@ -55,7 +50,7 @@ enableEmoji = true
     #   title = "RSS"
     #   weight = 9
   [languages.en.params]
-    description = "David Sepashvili's home page"
+    description = "David Sepashvili's homepage"
     keywords = ["David Sepashvili", "Security Engineer", "Security", "Personal Website", "Blog", "Ruthless&Rude", "RuthlessAndRude"]
     [languages.en.params.home]
       [languages.en.params.home.profile]
