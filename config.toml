@@ -237,7 +237,7 @@ enableEmoji = true
     duration = -1
 
   [params.verification]
-    google = ""
+    google = "xgJCHX-QpDaAysVB10ECULwN4ctQ-5S4ywVPjpqAag4"
     bing = ""
     yandex = ""
     pinterest = ""
