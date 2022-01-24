@@ -229,8 +229,6 @@ enableEmoji = true
     Linkedin = "david-sepashvili-5a3350b5"
     Telegram = "RuthlessAndRude"
     Email = "ruthless.rude.david@gmail.com"
-    # RSS = true
-
 
   [params.typeit]
     speed = 50
@@ -252,11 +250,12 @@ enableEmoji = true
   #   image = ""
   #   # thumbnail URL
   #   thumbnailUrl = ""
-  # [params.analytics]
-  #   enable = false
-  #   [params.analytics.google]
-  #     id = ""
-  #     anonymizeIP = true
+
+  [params.analytics]
+    enable = true
+    [params.analytics.google]
+      id = "G-YK6R77HYXC"
+      anonymizeIP = true
 
   [params.cookieconsent]
     enable = false
