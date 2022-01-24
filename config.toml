@@ -51,7 +51,7 @@ enableEmoji = true
     #   weight = 9
   [languages.en.params]
     title = "David Sepashvili"
-    description = "I am David Sepashvili, Security Engineer from Saint Petersburg, Russia"
+    description = "Security Engineer from Saint Petersburg, Russia"
     images = ["og-image-en.png"]
     keywords = ["David Sepashvili", "Security Engineer", "Security", "Personal Website", "Blog", "Ruthless&Rude", "RuthlessAndRude"]
     [languages.en.params.home]
@@ -115,7 +115,7 @@ enableEmoji = true
     #   weight = 9
   [languages.ru.params]
     title = "Давид Сепашвили"
-    description = "Я Давида Сепашвили, Инженер по инфраструктурной безопасности из Санкт-Петербурга."
+    description = "Инженер по инфраструктурной безопасности из Санкт-Петербурга"
     images = ["og-image-ru.png"]
     keywords = ["David Sepashvili", "Security Engineer", "Security", "Personal Website", "Blog", "Ruthless&Rude", "RuthlessAndRude"]
     [languages.ru.params.home]
