@@ -1,6 +1,7 @@
 ---
 title: "About"
 description: "I am David Sepashvili, an Infrastructure Security Engineer from Saint Petersburg, Russia."
+images: ["me_full.jpg"]
 date: 2022-01-23T20:01:14+03:00
 toc: false
 
